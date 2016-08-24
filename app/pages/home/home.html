@@ -1,0 +1,26 @@
+<ion-header>
+<ion-navbar navColor>
+  <ion-buttons end>
+    <button (click)="addDrPage()" fab>  Add Dr.
+        <ion-icon name="md-person-add" ></ion-icon>
+      </button>
+  </ion-buttons>
+  <ion-title>
+    Home
+  </ion-title>
+</ion-navbar>
+</ion-header>
+<ion-content class="home" style="background-image:url('images/DrbgFinal.png');width:100%; height:100%;">
+  <div>
+    <img src="images/DrsFinals.png"  style="margin:0 auto; display:block;z-index:-100">
+    <h1>Doctor Info</h1>
+  </div>
+
+  <div style="position:relative; top:30vh;margin:0 auto; opacity:80%">
+    <button light outline class="btn">Clinics</button>
+    <br>
+    <button light outline (click)="hosptlList()" class="btn">Hospitals</button>
+  </div>
+
+
+</ion-content>
